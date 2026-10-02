@@ -10,6 +10,7 @@ var version = Assembly.GetExecutingAssembly()
 
 Console.WriteLine($"hello-dotnet version {version}");
 Console.WriteLine("Hello from C# in GitHub Actions! 🚀📦");
+Console.WriteLine("🎉 New in v0.2.0!");
 Console.WriteLine($"OS: {RuntimeInformation.OSDescription}");
 Console.WriteLine($"Arch: {RuntimeInformation.OSArchitecture}");
 Console.WriteLine(Greeting.Greet("GitHub"));
